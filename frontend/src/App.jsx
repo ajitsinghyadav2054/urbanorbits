@@ -11,8 +11,9 @@ import Pricing from './pages/Pricing';
 import Help from './pages/Help';
 import UserGuide from './pages/UserGuide';
 import FAQs from './pages/FAQs';
-import ContactForm from './pages/ContactForm'; // Help contact form, not main contact page
-import Searchresult from './pages/Searchresult';
+import ContactForm from './pages/ContactForm'; 
+import ServiceExplorer from "./pages/ServiceExplorer";
+
 
 import '@fontsource/poppins';
 import AOS from 'aos';
@@ -41,7 +42,7 @@ function App() {
         <Route path="/help/user-guide" element={<UserGuide />} />
         <Route path="/help/faqs" element={<FAQs />} />
         <Route path="/help/contact" element={<ContactForm />} />
-        <Route path="/search" element={<Searchresult/>} />
+         <Route path="/explore-services" element={<ServiceExplorer />} />
       </Routes>
 
       {/* Conditionally render Footer */}

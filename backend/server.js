@@ -26,10 +26,9 @@ app.get('/', (req, res) => {
 // Other routes
 app.use('/api/blogs', require('./routes/blogRoutes'));
 app.use('/api/faqs', require('./routes/faq'));
-const searchRoutes = require('./routes/search');
-app.use('/api/search', searchRoutes);
 
-// **Add this line to fix your problem:**
+const contentRoutes = require("./routes/contentRoutes");
+app.use("/api", contentRoutes);// **Add this line to fix your problem:**
 const contactRoutes = require('./routes/contact');
 app.use('/api/contact', contactRoutes);
 

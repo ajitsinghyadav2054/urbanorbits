@@ -122,11 +122,11 @@ const Hero = () => {
       {/* Section 3 */}
      {/* Section 3 */}
 <section
-  id="section3"
+  id="section3 "
   className="text-black flex items-center justify-center min-h-screen scroll-snap-start w-full transition-opacity duration-1000 ease-out"
   data-aos="fade-up"
 >
-  <div className="flex flex-col md:flex-row bg-[#F3F3E9] w-full max-w-7xl mx-auto p-6 md:p-12 rounded-lg gap-8">
+  <div className="flex flex-col md:flex-row bg-[#F3F3E9] w-full p-6 md:p-12 rounded-lg gap-8">
     
     {/* Text Content */}
     <div className="md:w-1/2 flex flex-col justify-center">
